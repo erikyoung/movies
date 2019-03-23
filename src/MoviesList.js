@@ -10,7 +10,7 @@ export default class MoviesList extends Component {
   render() {
     return (
     	<div>
-          {this.props.movies.map(movie => <Movie />)}
+          {this.props.movies.map(movie => <Movie {...movie} />)}
         </div>
     );
   }

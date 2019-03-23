@@ -5,7 +5,7 @@ import './App.css';
 import NavBar from './NavBar'; 
 import MoviesList from './MoviesList'; 
 
-import SAMPLE_DATA from './sample_data'; 
+import SAMPLE_DATA from './sample_data.json'; 
 
 class App extends Component {
   render() {

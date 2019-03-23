@@ -2,10 +2,10 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Card, CardImg, CardText, CardBody,
   CardTitle} from 'reactstrap'; 
+import MoviesList from './MoviesList'; 
 
 
 
-// import styles from './styles';
 
 export default class Movie extends Component {
   render() {
